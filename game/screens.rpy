@@ -311,6 +311,8 @@ screen navigation():
 
         textbutton _("Preferences") action ShowMenu("preferences")
 
+        textbutton _("Characters") action ShowMenu("characters")
+
         if _in_replay:
 
             textbutton _("End Replay") action EndReplay(confirm=True)
@@ -598,6 +600,51 @@ screen load():
 
     use file_slots(_("Load"))
 
+screen characters():
+
+    tag menu
+
+    use game_menu(_("Characters"), scroll="viewport"):
+
+        style_prefix "characters"
+
+        vbox:
+
+            label "[config.name!t]"
+            text _("Version [config.version!t]\n")
+
+            ## gui.about is usually set in options.rpy.
+            if gui.about:
+                text "[gui.about!t]\n"
+
+            text _("Harper")
+            text _("It's you!")
+            text _("Pronouns: He/they/it")
+            text _("")
+            text _("~~~~~~~~~~~~~~~~~~~~~~")
+            text _("")
+            text _("Inari")
+            text _("Your favorite transgender rich princess")
+            text _("Pronouns: She/they")
+            text _("")
+            text _("~~~~~~~~~~~~~~~~~~~~~~")
+            text _("")
+            text _("Apple")
+            text _("Construction worker girl")
+            text _("Pronouns: she/her")
+            text _("")
+            text _("~~~~~~~~~~~~~~~~~~~~~~")
+            text _("")
+            text _("Patches")
+            text _("Is he a bad influence, maybe :P but maybe you're the bad influence")
+            text _("His name is subject to change in later editions")
+            text _("Pronouns: He/they")
+            text _("")
+            text _("~~~~~~~~~~~~~~~~~~~~~~")
+            text _("")
+            text _("Stitchychu")
+            text _("Everyone's favorite vtuber, subsribe on youtube or twitch")
+            text _("She is based on a real Vtuber of the same name, with consent to be here")
 
 screen file_slots(title):
 
