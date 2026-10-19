@@ -5,3 +5,7 @@ I want my first demo to have all 4 of the main story lines but for them to be ve
 Then for the next few weeks I want to do one fully each week + ideally developing sprites for them.
 Currently all characters have 1 sketch sprite that will be replaced eventually and they'll have by the end too.
 Hikaru and Inari both have finished stories (or at least first drafts of them), so the skipping school routes are fine/doneish.
+Made with Renpy, art is done either on paper or with Ibis Paint X
+There will be music in the future I think but maybe not for terra.
+No AI Usage
+There will be more stories they just don't exist yet.
