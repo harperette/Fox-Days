@@ -459,21 +459,139 @@ label sadnari:
                                         h "Yeah, how'd you know...???"
                                         hk "My ex girlfriend had it"
                                         h "Oh that makes enough sense"
-                                        jump choice_done
-                                    "Mhm mhm!!!":
-                                        "You dig through your own backpack and find some apple juice you brought just because it's yummy"
-                                        "After mixing both of you drinks you offer him one."
-                                "You take a moment to consider your options."
+                                        h "Wait? You have an ex?"
+                                        hk "Yeah??? Why wouldn't I have had an ex?"
+                                        h "Because you...?"
+                                        menu:
+                                            "You seem like a loser like me?":
+                                                hk "Asshole!"
+                                                h "I'm not wrong!"
+                                                hk "Well clearly you are!"
+                                                h "I mean look at you!"
+                                                hk "What's that supposed to mean!!!"
+                                                h "You know exactly what I mean!"
+                                                hk "Whatever, I'm getting out of here!"
+                                                h "Fine, go then!"
+                                                jump choice_done
+                                            "I... I dunno... It's just...":
+                                                hk "Are you jealous?"
+                                                h "What? No!"
+                                                show harper blush
+                                                h "Plus we just met today..."
+                                                h "I couldn't be jealous of her, plus I've also never met her!"
+                                                hk "You really are jealous!"
+                                                "He laughs and you start laughing too"
+                                                h "Just give me the chips already!"
+                                                hk "Yeah, yeah!"
+                                                "He rolls his eyes at you"
+                                                h "Oh shit! It's late, I ought to get home now."
+                                                hk "Awwwwww, wait!"
+                                                "He hands you his phone, open on an add contact page"
+                                                hk "Let's see each other again sometime"
+                                                jump choice_done
+                                                
+                                        "Mhm mhm!!!":
+                                            "You dig through your own backpack and find some apple juice you brought just because it's yummy"
+                                            "After mixing both of you drinks you offer him one."
+                                            hk "Thanks..."
+                                            "You both sip at the drinks as you go through the rest of the bag and talk together."
+                                            h "Wait? You have an ex?"
+                                            hk "Yeah??? Why wouldn't I have had an ex?"
+                                            h "Because you...?"
+                                            menu:
+                                                "You seem like a loser like me?":
+                                                    hk "Fuck you!"
+                                                    "He hits you, not hard enough to hurt badly but hard enough to stumble a bit"
+                                                    h "Fuck!"
+                                                    menu:
+                                                        "Apologize":
+                                                            h "I'm sorry!"
+                                                            hk "Yeah yeah, whatever."
+                                                            hk "Let's just leave, it's getting late anyways..."
+                                                            jump choice_done
+                                                        "Hit him back":
+                                                            show hikaru grin
+                                                            hk "Ow! Holy shit, I wasn't expecting you to be the type to punch back"
+                                                            "He shoves you again but trips and falls, leaving you between him and the ground."
+                                                            h "Fucking hell!"
+                                                            "You spit some blood from your mouth because you bit yourself during the fall"
+                                                            "You try to get out of his grasp but he punches you again."
+                                                            h "I hate you!"
+                                                            hk "Yeah, well, I hate you too!"
+                                                            "One of your hands gets out of his grasp, and grabs his hair, pulling on it"
+                                                            "This, unintentionally, pulls both of you closer together."
+                                                            hk "Fuck..."
+                                                            "One of you kisses the other, you're in such a daze you don't know which one of you even intiated it."
+                                                            h "Fuck..."
+                                                            hk "Holy shit..."
+                                                            "You both stare at each other before he shoves away from you."
+                                                            hk "Fuck you!"
+                                                            hk "I'm not... I'm not gay!"
+                                                            h "I think you fucking are!"
+                                                            hk "No, of course not!"
+                                                            hk "Fuck"
+                                                            "He shoves you again"
+                                                            h "What the fuck is wrong with you!"
+                                                            hk "What's wrong with me? What's wrong with you!"
+                                                            h "A lot??? But I don't think any of it is relevant here???"
+                                                            h "You're gonna need to be more specific???"
+                                                            hk "Sighs"
+                                                            "He falls to the ground with a sigh"
+                                                            hk "Just go away!"
+                                                            "You don't go anywhere, you just sit down a few feet away from him and pour another drink"
+                                                            hk "Whatever..."
+                                                            "You're overheating from the fight and pull off your jacket leaving you just in the tanktop"
+                                                            hk "What are you doing?!?"
+                                                            hk "Don't undress in front of me!"
+                                                            h "It's just my jacket, get over it, prude!"
+                                                            hk "Ugh..."
+                                                            "He runs his hands through his hair in frustration"
+                                                            hk "Do you really have to do this?"
+                                                            h "Yes? It's hot as shit"
+                                                            h "Why? Is it upsetting you?"
+                                                            hk "It's just weird, ok???"
+                                                            show hikaru frustrated
+                                                            hk "I'm not supposed to see you like this!"
+                                                            h "And why not?"
+                                                            hk "Because I'm a boy and you're a boy..."
+                                                            hk "And it's not like it's bad to be gay but I'm not!"
+                                                            h "Mhm"
+                                                            "You give him a look of annoyance"
+                                                            h "Are you sure you're not gay?"
+                                                            hk "Uhhhhh fuck"
+                                                            "You grab his hand"
+                                                            show hikaru blush
+                                                            "He mumbles"
+                                                            hk "I guess you're a little right..."
+                                                            h "Of course I am, I'm always right"
+                                                            "You both sit there for a long while"
+                                                            "And longer"
+                                                            "And longer"
+                                                            "Until he says something"
+                                                            hk "So uhh, what next?"
+                                                            h "We could make plans for a date"
+                                                            hk "I guess we could..."
+                                                            "You pull his hair again, this time less aggressively"
+                                                            hk "Heyyyyyyyyyy!!!"
+                                                            "You giggle which causes him to as well"
+                                                            jump choice_done
+
+                                                "I dunno, you just seem like you would prefer being single":
+                                                    hk "I guess I have that vibe"
+                                                    "You take another sip of your drink and pick at a snack"
+                                                    "You dig through the bag and find some fire starters"
+                                                    h "Oh hells yeah!"
+                                                    "The two of you make out a clearing and grab nearby twigs to put in a pile"
+                                                    "You pull out your lighter and extend it to him"
+                                                    h "Do you want to, or should I?"
+                                                    hk "All yours"
+                                                    "You light a starter and throw it into the pile, causing the fire to slowly grow"
+                                                    h "woah!!!"
+                                                    jump choice_done
+
+                                            #They should do fun illegal activities like blowing shit up and uhhhh fire, fire is fun and then they should sleep together
 
 
-
-
-
-            
-
-
-
-    # Add the delinquent storyline here
     jump choice_done
 
 label choice_done:
